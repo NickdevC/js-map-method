@@ -21,7 +21,8 @@ const mapResults = nums.map(multByTwo);
 console.log(mapResults);
 
 // Simplified w/ map()
-
+const simplified = nums.map( function(num) {return num * 2});
+console.log(simplified);
 
 // Simplfied w/ map() + arrow function
 
