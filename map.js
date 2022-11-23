@@ -25,7 +25,8 @@ const simplified = nums.map( function(num) {return num * 2});
 console.log(simplified);
 
 // Simplfied w/ map() + arrow function
-
+const simplifiedArrow = nums.map( num => num * 2);
+console.log(simplifiedArrow);
 
 // With objects:
 const students = [
