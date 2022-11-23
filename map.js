@@ -49,3 +49,6 @@ const students = [
     skill: 'CSS'
   },
 ];
+
+const studentsWithIds = students.map(student => [student.name, student.id]);
+console.log(studentsWithIds);
